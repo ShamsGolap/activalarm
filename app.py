@@ -15,7 +15,7 @@ main_command = 'curl '
 send_method = '-X POST '
 data = '--data-urlencode '
 URL = getenv('URL_SLACK_AK')
-channel = '@shams'
+channel = '#general'
 username = 'La ligne la plus longue'
 text = u'GO GO GO ! Faites la ligne la plus longue avec tout ce que vous avez sur vous !'
 payload = '\'payload={"channel": "' + channel + '", "username": "' + username + '", "text": "' + text + '"}\' '
